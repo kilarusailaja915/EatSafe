@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EatSafe</title>
+    <link rel="shortcut icon" href="favcon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  aria-hidden="true" onclick="hidemenu()"></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="alternatives.html">ALTERNATIVES</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+        <h1>Alternatives</h1>
+
+    </section>
+    <!--about us-->
+    <section class="aboutus">
+        <div class="row">
+            <div class="aboutus">
+                <img src="images/alt.png" >
+            </div>
+        </div>
+    </section>
+    <!---footer-->
+    <section class="footer">
+        <h4>
+            About Us
+        </h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, velit. Laudantium sed maxime, laboriosam reprehenderit quasi <br>nobis ducimus id at quia fugiat autem aliquid dolorum quas aliquam eos libero aut.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p></p> Made with <i class="fa fa-heart-o"></i> by Sailaja</p>
+    </section>
+<!--------javascript for toggle menu------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+</body>
+</html>

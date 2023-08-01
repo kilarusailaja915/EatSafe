@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EatSafe</title>
+    <link rel="shortcut icon" href="favcon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  aria-hidden="true" onclick="hidemenu()"></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="alternatives.html">ALTERNATIVES</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Awareness On Allergies</h1>
+            <p> Food allergy is an important cause of morbidity, significantly affecting the quality of life of the sufferer</p>
+            <a href="index.html" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+    <!---campus--->
+    <section class="campus">
+        <h1> Main Allergens</h1>
+        <p>More than 170 foods have been reported to cause allergic reactions, according to Food Allergy Research & Education (FARE), but the vast majority are caused by the “Big Nine”: milk, eggs, nuts, fish, crustaceans, shellfish, wheat, soy and sesame.</p>
+        <div class="course-col">
+            <h1> BIG 9</h1>
+        </div>
+        <div class="row">
+            <div class="big">
+                <img align="left" src="images/milk.png">
+                <div class="layer">
+                    <h3>Milk</h3>
+                </div>
+            </div>
+            <div class="big">
+                <img align="left" src="images/egg.png">
+                <div class="layer">
+                    <h3>Eggs</h3>
+                </div>
+            </div>
+            <div class="big">
+                <img align="left" src="images/peanuts.png">
+                <div class="layer">
+                    <h3>Peanuts</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="big">
+                <img align="left" src="images/fish.png">
+                <div class="layer">
+                    <h3>Fish</h3>
+                </div>
+            </div>
+            <div class="big">
+                <img align="left" src="images/crustaceans.png">
+                <div class="layer">
+                    <h3>crustaceans</h3>
+                </div>
+            </div>
+            <div class="big">
+                <img align="left" src="images/shellfish.png">
+                <div class="layer">
+                    <h3>Shellfish</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="big">
+                <img align="left" src="images/wheat.png">
+                <div class="layer">
+                    <h3>Wheat</h3>
+                </div>
+            </div>
+            <div class="big">
+                <img align="left" src="images/soy.png">
+                <div class="layer">
+                    <h3>soy</h3>
+                </div>
+            </div>
+            <div class="big">
+                <img align="left" src="images/sesame.png">
+                <div class="layer">
+                    <h3>Sesame</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>
+            To know more about your allergens
+        </h1>
+        <a href="contact.html.html" class="hero-btn"> Contact Us</a>
+
+    </section>
+    <!---footer-->
+    <section class="footer">
+        <h4>
+            About Us
+        </h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, velit. Laudantium sed maxime, laboriosam reprehenderit quasi <br>nobis ducimus id at quia fugiat autem aliquid dolorum quas aliquam eos libero aut.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p></p> Made with <i class="fa fa-heart-o"></i> by Sailaja</p>
+    </section>
+<!--------javascript for toggle menu------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+</body>
+</html>
