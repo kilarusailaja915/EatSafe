@@ -1,1 +1,2 @@
 # EatSafe
+EatSafe is a comprehensive website designed to provide vital information about food allergies. This platform aims to raise awareness and promote safe practices for individuals with food allergies. The website is built using HTML CSS and Javascript. It includes a user friendly contact form to facilitate communication between users and the website administrators. The website will be hosted on a private server ensuring data privacy and security for users.
